@@ -1,0 +1,107 @@
+.container{
+    
+    margin: 40px 40px;
+}
+
+.row-marketing{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+   
+}
+/* .marketing{
+   background-color: aqua;
+   padding: 10px 20px;
+} */
+.marketing .explore{
+    color: rgba(0, 255, 153, 0.796);
+}
+.marketing p{
+   text-align: justify;
+   max-width: 560px;
+   
+}
+.marketing .heading{
+    font-size: 38px;
+    text-align: left;
+    line-height: 50px;
+   
+
+}
+
+/* //imgaes with icons */
+
+.container-img {
+    position: relative;
+    text-align: center;
+}
+
+.rocket {
+    width: 300px;
+}
+
+.icons {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.icons:hover {
+    background-color: rgb(39, 8, 8);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+.icons i {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.fb {
+    top: 10%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    background-color: #3b5998;
+}
+
+.linkedin-1 {
+    top: 30%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    background-color: #0077b5;
+}
+
+.gmail-1 {
+    top: 30%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    background-color: #d44638;
+}
+
+.linkedin-2 {
+    top: 70%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+    background-color: #0077b5;
+}
+
+.gmail-2 {
+    top: 70%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+    background-color: #d44638;
+}
+@media (max-width: 940px){
+    .row-marketing{
+        
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+       
+    }
+}

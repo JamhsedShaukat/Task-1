@@ -1,0 +1,113 @@
+.main{
+    padding-top: 30px;
+    background: linear-gradient(270deg, #5a1a1aa7, #000000cd,#4e0d0df0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+   
+}
+.row{
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+   
+}
+.heading-connect{
+    line-height: 50px;
+    font-size: 42px;
+}
+
+.row p{
+    font-size: large;
+    text-align: center;
+    line-height: 30px;
+    padding: 10px 0;
+}
+.row .get-started{
+    background-color: transparent;
+}
+
+.lower-section {
+    background: linear-gradient(to bottom, transparent 0%, transparent 50%, white 51%);
+    position: relative;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(14, 14, 14, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    color: white;
+}
+
+.icon:hover {
+    background-color: rgb(39, 8, 8);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fb-icon {
+    margin-bottom: 100px;
+    margin-right: 20px;
+    background-color: #3b5998;
+}
+
+.gmail-icon {
+    background-color: #db4437;
+}
+
+.linkedin-icon {
+    margin-left: 20px;
+    background-color: #0e76a8;
+    margin-bottom: 100px;
+}
+
+.laptop-screen {
+    /* position: relative; */
+    width: 800px;
+    margin-top: 30px; /* Adjust based on your layout */
+}
+
+.laptop-screen img {
+    width: 100%;
+    box-shadow: 0 0 10px rgba(23, 190, 140, 0.853);
+    height: auto;
+    border-radius: 20px;
+}
+@media (max-width: 950px){
+    .laptop-screen {
+   
+        width: 500px;
+        margin-top: 30px;
+    }
+    .lower-section{
+        width: 100%;
+    }
+    .laptop-screen img {
+        width: 100%;
+        
+    }
+    .heading-connect{
+        font-size: 32px;
+    }
+}
+
+

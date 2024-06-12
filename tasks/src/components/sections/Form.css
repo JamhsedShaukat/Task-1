@@ -1,0 +1,100 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px 10px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.245);
+  margin-bottom: 80px;
+}
+
+.form-title {
+  text-align: center;
+  font-size: 34px;
+  margin: 40px 0;
+  padding-bottom: 60px;
+  color: black;
+}
+
+.proposal-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
+  gap: 20px;
+}
+.slection {
+  display: inline-block !important;
+  justify-content: space-between;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form-field label {
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.form-field input,
+.form-group select,
+.form-group textarea {
+  padding: 10px 14px;
+  border: none;
+  font-size: 14px;
+  background-color:#F7F9FC;
+  ;
+
+}
+
+.form-group select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: #fff
+    url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" width="292.362" height="292.362" viewBox="0 0 292.362 292.362"><path fill="%23333" d="M287.816 69.264l-14.274-14.273c-3.566-3.566-7.84-5.349-12.847-5.349-5.01 0-9.278 1.783-12.847 5.349L146.18 166.658 45.512 55.991c-3.568-3.566-7.84-5.349-12.847-5.349-5.011 0-9.281 1.783-12.85 5.349L5.54 69.264C1.973 72.83.19 77.103.19 82.113c0 5.009 1.783 9.276 5.349 12.847l127.774 127.773c3.567 3.568 7.84 5.354 12.85 5.354 5.008 0 9.281-1.786 12.847-5.354l127.773-127.773c3.566-3.567 5.349-7.838 5.349-12.847 0-5.01-1.783-9.283-5.347-12.849z"/></svg>')
+    no-repeat right 10px center;
+  background-size: 10px;
+}
+
+
+.submit-button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #f7797d 0%, #c471ed 52.08%, #12c2e9 100%);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 20px;
+  transition: backGround 0.3s ease;
+  max-width: 201px;
+  height: 55;
+  align-self: center;
+}
+
+.submit-button:hover {
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+}
+
+.form-group textarea {
+  resize: none;
+  width: 400px;
+  height: 100px;
+
+  gap: 0px;
+  border-radius: 3px 0px 0px 0px;
+  opacity: 0px;
+}
